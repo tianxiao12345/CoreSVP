@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author           = { "CharlinFeng" => "CharlinFeng" }
   s.platform     = :ios
   s.source           = { :git => "https://github.com/tianxiao12345/CoreSVP.git", :tag => s.version.to_s }
-  s.source_files = "AdView/*.{h,m}"
+  s.source_files = "CoreSVP/CoreSVP/**/*.{h,m}"
   s.requires_arc = true
 end
