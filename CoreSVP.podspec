@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source_files = "CoreSVP/CoreSVP/*.{h,m}"
   s.resources = "CoreSVP/CoreSVP/Lib/SVP.bundle"
   s.requires_arc = true
-  s.dependency 'SVProgressHUDs', '~> 0.8.2'
+  s.dependency 'SVProgressHUD'
 end
